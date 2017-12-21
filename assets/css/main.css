@@ -3023,7 +3023,7 @@
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22em;
+		min-height: 25em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3036,7 +3036,8 @@
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 22em
+			min-width: 25em	;
+			min-height:28em;
 			
 		}
 
